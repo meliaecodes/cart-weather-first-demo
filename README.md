@@ -1,6 +1,13 @@
-# Forge Hello World
+# Forge - Weather Conditions
 
-This project contains a Forge app written in Javascript that displays `Hello World!` in a Jira issue panel. 
+The Charlie Atlas Racing team use a Jira work items to automatically store race results for reviewing later - they want an app that will store the weather conditions at the time the results work item is created along with the race results. 
+
+-> when a jira work item of a partiular type is created, the app will call the weather API and store weather conditions in jira issue entity property (jira API call)
+-> A project settings page can be used for storing longitude and latitude for different tracks in project entity properties
+-> the stored weather conditions and current conditions will be displayed in the jira issue
+
+Extension activity:
+Can you create a Jira project page with a graph showing race times, along with weather conditions? 
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
